@@ -9,88 +9,35 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="icon" href="./img/favicon-32x32.png" type="image/x-icon" />
-    <link
-      rel="shortcut icon"
-      href="./img/favicon-32x32.png"
-      type="image/x-icon"
-    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic. com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?  family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..  32,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Power Tech</title>
-
-    <style>
-      /*Reset*/
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      /*Container para limitar a largura*/
-      .container {
-        width: 100%;
-        max-width: 1300px;
-        margin: 0 auto;
-      }
-      /*Slider*/
-      #demo {
-        width: 100vw !important;
-        z-index: -10;
-      }
-      #demo div {
-        width: 100%;
-      }
-      .spaces {
-        margin: 25px 0;
-      }
-      /*Parte azul*/
-      #blog {
-        margin-top: -220px;
-      }
-
-      /*Rodapé*/
-      footer {
-        background-color: #111;
-        color: #fff;
-        width: 100%;
-        height: 50px;
-        padding: 15px;
-      }
-
-      footer span {
-        text-align: center;
-        display: block;
-        width: 100%;
-      }
-    </style>
   </head>
 
   <body>
     <nav>
       <img src="./img/logo.png" alt="Logo" />
       <ul>
-        <li><a href="./Pages/Home.html">Home</a></li>
+        <li><a href="">Home</a></li>
         <li><a href="#">Soluções</a></li>
         <li><a href="#">Sobre</a></li>
         <li><a href="#">Ajuda</a></li>
         <li><a href="#">Contato</a></li>
       </ul>
+      <div id="buttons">
+        <a href="#">Login/Cadastre-se</a>
+        <a href="#">Baixe o App</a>
+      </div>
     </nav>
+
     <section class="spaces">
-      <div id="demo">
+      <div id="banner">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -140,6 +87,26 @@
         </div>
       </div>
     </section>
+
+    <section id="demonstracao">
+      <img src="./img/homem-trabalhando.png" alt="" />
+      <div>
+        <h1>
+          <strong>Monitore</strong> e <strong>Automatize</strong> seu <br />
+          ambiente com a Power Tech
+        </h1>
+        <p>
+          Transforme sua casa ou empresa em um ambiente <br />
+          inteligente com nossas soluções avançadas <br />
+          de monitoramento e automação. A Power Tech <br />
+          oferece a automação de sua rotina e te assegura <br />
+          que sua energia está sendo utilizada <br />
+          de forma inteligente e segura.
+        </p>
+        <a href="./Pages/demonstracao.html">Solicitar Demonstração</a>
+      </div>
+    </section>
+
     <section id="blog">
       <div class="container">
         <h1>
@@ -158,58 +125,85 @@
         </section>
       </div>
     </section>
-    <section class="container">
-      <div id="sobre">
-        <h1>
-          Nós somos a Power Tech, <br />
-          a empresa feita para a sua economia.
-        </h1>
-        <img src="" alt="círculo" />
-      </div>
-      <div id="jobs">
-        <h1>Ei, você! Quer ser parceiro do nosso time?</h1>
-        <h2>
-          Temos aqui algumas vagas para tornar nossa empresa ainda mais potente.
-        </h2>
-        <div id="info-container">
-          <div class="info-box">
-            <img src="" alt="" />
-            <h3>Engenheiro Elétrico ou Eletricista</h3>
-          </div>
-          <div class="info-box">
-            <img src="" alt="" />
-            <h3>Empresas de Energia Solar</h3>
-          </div>
-          <div class="info-box">
-            <img src="" alt="" />
-            <h3>Consultores de Eficiência Energética</h3>
-          </div>
-          <div class="info-box">
-            <img src="" alt="" />
-            <h3>Técnicos em Informática</h3>
-          </div>
+
+    <section id="sobre">
+      <h1>
+        Nós somos a <a href="#">Power Tech</a>, a empresa feita para a sua
+        economia.
+      </h1>
+        <section id="integrantes">
+        <div class="membro">
+            <img src="foto-giovanna.jpg" alt="Foto de Giovanna Braz">
+            <h1>Giovanna Braz</h1>
+            <h2>Diretora-Chefe de Tecnologia</h2>
+            <h3>Monitora e implementa as tecnologias usadas.</h3>
         </div>
-      </div>
+
+        <div class="membro">
+            <img src="foto-davi.jpg" alt="Foto de Davi Pimentel">
+            <h1>Davi Pimentel</h1>
+            <h2>Diretor de Marketing e Design</h2>
+            <h3>Desempenha papel crucial na identidade da marca.</h3>
+        </div>
+
+        <div class="membro">
+            <img src="foto-maria.jpg" alt="Foto de Maria Clara Carvalho">
+            <h1>Maria Clara Carvalho</h1>
+            <h2>Diretora de Relações</h2>
+            <h3>Mantém contato com os clientes e fecha as parcerias.</h3>
+        </div>
+
+        <div class="membro">
+            <img src="foto-bruno.jpg" alt="Foto de Bruno dos Reis">
+            <h1>Bruno dos Reis</h1>
+            <h2>CEO</h2>
+            <h3>Diretor Geral da empresa.</h3>
+        </div>
+
+        <div class="membro">
+            <img src="foto-joao.jpg" alt="Foto de João Victor Posse">
+            <h1>João Victor Posse</h1>
+            <h2>Diretor de Operações</h2>
+            <h3>Mantém as operações funcionando de maneira eficiente.</h3>
+        </div>
     </section>
+    </section>
+    <section class="solutions">
+      <h2>Nossas Soluções</h2>
+      <div class="solutions-container">
+          <div class="solution domestic">
+              <img src="./img/casa3d.png" alt="Instalação Doméstica">
+              <h1>Instalação Doméstica</h3>
+              <p>Solar PV, Battery Storage, Heat Recovery, Ventilation Systems & EV Charging</p>
+          </div>
+          <div class="solution commercial">
+              <img src="./img/predio3d.png" alt="Instalação Comercial">
+              <h1>Instalação Comercial</h3>
+              <p>Solar PV, Battery Storage, Heat Recovery, Ventilation Systems & EV Charging</p>
+          </div>
+      </div>
+  </section>
+
+
 
     <footer>
       <span>Feito com ❤️ por PowerTech - 2024 </span>
     </footer>
-  </body>
 
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"
-  ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
