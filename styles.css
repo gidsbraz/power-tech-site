@@ -292,6 +292,7 @@ nav a {
   color: #777;
 }
 
+<<<<<<< HEAD
 .contact-container {
   max-width: 800px;
   margin: 2rem auto;
@@ -422,6 +423,8 @@ nav a {
   background-color: #e6a300;
 }
 
+=======
+>>>>>>> 7d19eb1f6d7896371dc8d33428c9029924c3b561
 footer {
   background-color: #111;
   color: #fff;
@@ -445,7 +448,10 @@ footer {
 .footer-inscricao h1 {
   font-size: 1rem;
   margin-bottom: 10px;
+<<<<<<< HEAD
   color: #283eff;
+=======
+>>>>>>> 7d19eb1f6d7896371dc8d33428c9029924c3b561
 }
 
 .footer-inscricao form {
@@ -509,4 +515,9 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
 
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 7d19eb1f6d7896371dc8d33428c9029924c3b561
